@@ -4,22 +4,16 @@
 A code review is a process where someone other than the author(s) of a piece of
 code examines that code.
 
-At Google, we use code review to maintain the quality of our code and products.
+Code review is used to maintain the quality of our code. It’s an extremely important process.
 
-This documentation is the canonical description of Google's code review
-processes and policies.
-
-
-
-This page is an overview of our code review process. There are two other large
-documents that are a part of this guide:
+This is an overview of our code review process. It contains two main sections:
 
 -   **[How To Do A Code Review](reviewer/index.md)**: A detailed guide for code
     reviewers.
--   **[The CL Author's Guide](developer/index.md)**: A detailed guide for
-    developers whose CLs are going through review.
+-   **[The PR Author's Guide](developer/index.md)**: A detailed guide for
+    developers whose PRs are going through review.
 
-## What Do Code Reviewers Look For? {#look_for}
+## What Do Code Reviewers Look For?
 
 Code reviews should look at:
 
@@ -33,8 +27,7 @@ Code reviews should look at:
 -   **Naming**: Did the developer choose clear names for variables, classes,
     methods, etc.?
 -   **Comments**: Are the comments clear and useful?
--   **Style**: Does the code follow our
-    [style guides](http://google.github.io/styleguide/)?
+-   **Style**: Does the code follow our style guides?
 -   **Documentation**: Did the developer also update relevant documentation?
 
 See **[How To Do A Code Review](reviewer/index.md)** for more information.
@@ -48,7 +41,7 @@ The best reviewer is the person who will be able to give you the most thorough
 and correct review for the piece of code you are writing. This usually means the
 owner(s) of the code, who may or may not be the people in the OWNERS file.
 Sometimes this means asking different people to review different parts of the
-CL.
+PR.
 
 If you find an ideal reviewer but they are not available, you should at least CC
 them on your change.
@@ -65,5 +58,5 @@ developer of the change speaks only when spoken to.
 
 -   [How To Do A Code Review](reviewer/index.md): A detailed guide for code
     reviewers.
--   [The CL Author's Guide](developer/index.md): A detailed guide for developers
-    whose CLs are going through review.
+-   [The PR Author's Guide](developer/index.md): A detailed guide for developers
+    whose PRs are going through review.
